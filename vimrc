@@ -16,19 +16,6 @@ set noexpandtab
 set tabstop=8
 "end
 
-"for a new plugin manager
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-" let Vundle manage Vundle
-" required!
-Bundle 'gmarik/vundle'
-
-" vim-scripts repos
-""Bundle 'EasyMotion'
-""Bundle 'AutoClose'
-Bundle 'ctrlp.vim'
-
-"end
 set cinoptions=(0,:0
 set uc=0        "do not use swap file when editing
 set nu
@@ -69,7 +56,7 @@ let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1 
 
 "winmanager
-map <c-w><c-f> :FirstExplorerWindow<cr>
+map<c-w><c-f> :FirstExplorerWindow<cr>
 map <c-w><c-b> :BottomExplorerWindow<cr>
 map <c-w><c-t> :WMToggle<cr> 
 
@@ -86,4 +73,4 @@ endif
 """""""""""""""""""""""""""""""
 " TAGS
 """""""""""""""""""""""""""""""
-"set tags=./tags,/home/xiabao/workspace/BF1010/TAGS/COMMON_APPL_ENV/tags,/home/xiabao/workspace/BF1010/TAGS/GLOBAL_ENV/tags,/home/xiabao/workspace/BF1010/TAGS/ENV/tags,/home/xiabao/workspace/BF1010/TAGS/PS_REL/tags,/home/xiabao/workspace/BF1010/TAGS/CPLANE/tags,/home/xiabao/workspace/BF1010/TAGS/COMMON/tags,/home/xiabao/workspace/BF1010/TAGS/ASN1_IF/tags,/home/xiabao/workspace/BF1010/TAGS/OAM_IF/tags,/home/xiabao/workspace/BF1010/TAGS/ISAR_VALFCT/tags,/home/xiabao/workspace/BF1010/TAGS/ISAR_PRTFCT/tags;
+set tags=./tags
