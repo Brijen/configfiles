@@ -1,13 +1,17 @@
 [user]
-	name = Runzhen
-	email = @mail.ustc.edu.cn
+	name = Runzhen Wang
+	email = sea11274@mail.ustc.edu.cn
 [core]
 	editor = vim
 	
 [alias]
-        co = checkout
-        br = branch
-        ci = commit -a
+        ch = checkout
+	b = branch
+	ba = branch -a
+	r = remote -v
+	ci = commit -a
+	di = diff
+	d = diff
         st = status
         rb = svn rebase
         dc = svn dcommit
@@ -18,5 +22,5 @@
 [sendemail]
         smtpencryption = tls
         smtpserver = "/usr/bin/msmtp"
-        smtpuser = xxoo@gmail.com
+        smtpuser = icycoder@gmail.com
         smtpserverport = 587
