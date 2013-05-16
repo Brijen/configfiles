@@ -1,0 +1,22 @@
+[user]
+	name = Runzhen
+	email = @mail.ustc.edu.cn
+[core]
+	editor = vim
+	
+[alias]
+        co = checkout
+        br = branch
+        ci = commit -a
+        st = status
+        rb = svn rebase
+        dc = svn dcommit
+        
+[color]
+        ui = auto
+
+[sendemail]
+        smtpencryption = tls
+        smtpserver = "/usr/bin/msmtp"
+        smtpuser = xxoo@gmail.com
+        smtpserverport = 587
