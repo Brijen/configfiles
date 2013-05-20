@@ -5,7 +5,7 @@
 	editor = vim
 	
 [alias]
-        ch = checkout
+        ck = checkout
 	b = branch
 	ba = branch -a
 	r = remote -v
