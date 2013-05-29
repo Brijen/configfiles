@@ -1,6 +1,6 @@
 [user]
-	name = 
-	email = @mail.ustc.edu.cn
+	name = Run
+	email = xxx@gmail.com
 [core]
 	editor = vim
 	
@@ -20,7 +20,7 @@
         ui = auto
 
 [sendemail]
-        smtpencryption = tls
-        smtpserver = "/usr/bin/msmtp"
-        smtpuser = icycoder@gmail.com
-        smtpserverport = 587
+	smtpencryption = tls
+        smtpserver = "smtp.gmail.com"
+        smtpuser = xxx@gmail.com
+	smtpserverport = 587
