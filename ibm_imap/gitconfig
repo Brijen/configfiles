@@ -1,0 +1,24 @@
+[user]
+	name = Run
+	email = xxx@linux.vnet.ibm.com
+[core]
+	editor = vim
+	
+[alias]
+        ck = checkout
+	b = branch
+	ba = branch -a
+	r = remote -v
+	ci = commit -a
+	di = diff
+	d = diff
+        st = status
+        rb = svn rebase
+        dc = svn dcommit
+        
+[color]
+        ui = auto
+
+[sendemail]
+	chainreplyto = false
+	smtpserver=/usr/bin/msmtp
