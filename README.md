@@ -1,1 +1,25 @@
-# archive some configure files
+## My Configure Files
+
+本人珍藏多年的配置文件! 
+
+喜欢的话就自行git clone吧！
+
+唔..这里只是一部分，等有空了再把其他的整理整理....
+
+
+## 说明
+
+* ibm_imap 是在IBM Linux技术中心实习期间使用的配置文件，专门针对IBM内部开源开发的环境做的配置，不适合其他情况。
+ 
+* vim 鄙人珍藏多年的Vim配置环境！吐血奉献。注意：配置符合Linux内核开发编码风格，不喜欢的自己稍做更改。
+
+* bashrc Bash环境。
+
+* gitconfig  Git工具配置。
+
+* muttrc 邮件客户端配置。
+
+
+## Misc
+
+这些都是我自己的使用习惯，不一定适合每个人，强烈推荐您根据自己的需要再定制。

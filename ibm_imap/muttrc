@@ -24,7 +24,7 @@ set include
 #charachter inserted before reply message
 set indent_str=">"
 #when viewing mail, stop in current mail, not jump to next mail
-set pager_stop
+#set pager_stop
 #when reply mail, go to edit window without interactive
 #set fast_reply
 #after setting flag, like 't','D', move curser to next mail

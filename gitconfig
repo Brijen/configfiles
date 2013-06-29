@@ -1,6 +1,6 @@
 [user]
-	name = Run
-	email = xxx@gmail.com
+	name = Runzhen Wang
+	email = runzhew@clemson.edu
 [core]
 	editor = vim
 	
@@ -22,5 +22,5 @@
 [sendemail]
 	smtpencryption = tls
         smtpserver = "smtp.gmail.com"
-        smtpuser = xxx@gmail.com
+        smtpuser = icycoder@gmail.com
 	smtpserverport = 587
