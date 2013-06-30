@@ -1,15 +1,28 @@
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 VERBOSE=off                             # Turn on for verbose log
-DEFAULT=/var/spool/mail/runzhen
-MAILDIR=/home/runzhen/.mail               # Where procmail recipes deliver
+DEFAULT=/home/runzhen/Mail/runzhen
+MAILDIR=/home/runzhen/Mail/              # Where procmail recipes deliver
 LOGFILE=/home/runzhen/.procmaillog        # Keep a log for troubleshooting
 
 #Recipes below this comment
 
 
+:0
+* .*kvm@vger.kernel.org
+linux-kvm 
+
+:0
+* .*linux-mm@kvack.org 
+linux-mm
+
+:0
+* .*redis-db@googlegroups.com 
+redis
+
 #最后的这个配置就是指如果上面分类剩下的信件全扔到inbox里
 :0
-* .* inbox
+* .*
+inbox
 
 # 黑名单（垃圾邮件）
 
