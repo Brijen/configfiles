@@ -19,6 +19,10 @@ linux-mm
 * .*redis-db@googlegroups.com 
 redis
 
+:0
+* .*linux-perf-users@vger.kernel.org
+linux-perf-users
+
 #最后的这个配置就是指如果上面分类剩下的信件全扔到inbox里
 :0
 * .*
