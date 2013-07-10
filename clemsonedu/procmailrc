@@ -23,6 +23,15 @@ redis
 * .*linux-perf-users@vger.kernel.org
 linux-perf-users
 
+:0
+* ^From. runzhew@clemson.edu
+sentmail/sent 
+
+:0
+* ^From. runzhew@g.clemson.edu 
+sentmail/sent 
+
+
 #最后的这个配置就是指如果上面分类剩下的信件全扔到inbox里
 :0
 * .*
