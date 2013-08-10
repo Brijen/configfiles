@@ -52,7 +52,10 @@ set pager_index_lines=0
 set folder=/home/runzhen/Mail 
 set spoolfile=/home/runzhen/Mail/inbox
 # the mail list you subscribed, press 'L' to reply to list
-#subscribe shlug@googlegroups.com
+subscribe kvm@vger.kernel.org
+subscribe linux-mm@kvack.org
+subscribe redis-db@googlegroups.com
+subscribe linux-perf-users@vger.kernel.org
 
 my_hdr From: Runzhen Wang <runzhew@g.clemson.edu>
 my_hdr Reply-To: Runzhen Wang <runzhew@g.clemson.edu>
