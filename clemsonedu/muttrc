@@ -1,4 +1,4 @@
-set sendmail = "/usr/bin/msmtp -v -X ~/Mail/msmtp.log"
+set sendmail = "/usr/bin/msmtp -v -X ~/.msmtp.log"
 #set the display index format
 set index_format="%4C %Z %{%b %d} %-15.15L (%4l) %s"
 #set mail boxs, press "c" than "tab"
@@ -8,16 +8,20 @@ set header=no
 #when type 'q' to quit, whether ask you or not
 #set quit=ask-yes
 #which kind of file could be viewed directly via mailcap?
-
 auto_view text/html
 
 set editor = "vim"
-set quit = ask-yes
+set quit = ask-no
 #whether move mail from spool to mbox
 #set move=no
 #when display by thread, whether use ascii?
-set sort=reverse-threads
-set sort_aux=date
+
+# score mail
+#score "~N" +4
+#score "~O" +2
+set sort_aux=reverse-last-date-received
+set sort=threads
+set sort_browser=reverse-date
 set ascii_chars=yes
 #when reply, whether include original mail
 set include
@@ -27,7 +31,7 @@ set indent_str=">"
 set pager_stop
 set pager_index_lines=0
 #when reply mail, go to edit window without interactive
-#set fast_reply
+set fast_reply
 #after setting flag, like 't','D', move curser to next mail
 set resolve=yes
 #when set alias by 'a', which file to save
@@ -52,10 +56,22 @@ set pager_index_lines=0
 set folder=/home/runzhen/Mail 
 set spoolfile=/home/runzhen/Mail/inbox
 # the mail list you subscribed, press 'L' to reply to list
-subscribe kvm@vger.kernel.org
-subscribe linux-mm@kvack.org
-subscribe redis-db@googlegroups.com
-subscribe linux-perf-users@vger.kernel.org
+#subscribe kvm@vger.kernel.org
+#subscribe linux-mm@kvack.org
+#subscribe redis-db@googlegroups.com 
+#subscribe linux-perf-users@vger.kernel.org
 
 my_hdr From: Runzhen Wang <runzhew@g.clemson.edu>
 my_hdr Reply-To: Runzhen Wang <runzhew@g.clemson.edu>
+
+#可用颜色包括：white, black, green, magenta, blue, cyan, yellow, red, default
+# -- -- 前景色 背景色
+#color normal     green default 
+#color attachment blue  default 
+#color bold	 brightwhite	default 
+#color underline	 default	 blue 
+#color error	 brightwhite	default 
+#color indicator	 white green 
+#color message	 brightblue	default 
+#color status	 white	 blue
+#color quoted     yellow default 
