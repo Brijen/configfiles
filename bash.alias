@@ -1,22 +1,13 @@
-alias h='history'
-alias cp='cp -i'
-alias mv='mv -i'
-alias l='/bin/ls -lah | less'
-alias ls='ls -FC --color=always'
-alias re='reset'
-alias rmsvn='find . -name ".svn" -type d -exec rm -rf {} \;'
-
-alias 3a='cd /home/malloy/pubsvn/MALLOY_372-2012-assets'
-alias des='cd /home/malloy/Desktop'
-alias doc='cd /home/malloy/Documents'
-alias dow='cd /home/malloy/Downloads'
-
-
 alias m='make'
 alias mc='make clean'
 
+alias 870='cd /home/runzhen/course/870/malloy_870_2013/'
+alias 851='cd /home/runzhen/course/851'
+alias 839='cd /home/runzhen/course/839'
+alias code='cd /home/code/'
+alias access='ssh runzhew@access.cs.clemson.edu'
+alias newton='ssh runzhew@newton.cs.clemson.edu'
+alias power='ssh runzhen@aqua.opensuse.osuosl.org'
+
 alias ..='cd ..'
-alias ...='cd ../..'
-alias ....='cd ../../..'
-alias .....='cd ../../../..'
-alias ......='cd ../../../../..'
+alias ...='cd ../../'
