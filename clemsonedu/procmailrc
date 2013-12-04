@@ -24,11 +24,19 @@ redis
 linux-perf-users
 
 :0
-* ^From. runzhew@clemson.edu
-sentmail/sent 
+* .*osv-dev@googlegroups.com 
+osv
 
 :0
-* ^From. runzhew@g.clemson.edu 
+* .*freebsd-current@freebsd.org
+freeBSD
+
+:0
+* ^From. *@clemson.edu
+Clemson
+
+:0
+* ^From: runzhew@g.clemson.edu 
 sentmail/sent 
 
 
