@@ -1,0 +1,41 @@
+PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
+VERBOSE=off                             # Turn on for verbose log
+DEFAULT=/home/run/Mail/run
+MAILDIR=/home/run/Mail/              # Where procmail recipes deliver
+LOGFILE=/home/run/.procmaillog        # Keep a log for troubleshooting
+
+#Recipes below this comment
+
+
+:0
+* .*kvm@vger.kernel.org
+linux-kvm 
+
+:0
+* .*linux-mm@kvack.org 
+linux-mm
+
+:0
+* .*redis-db@googlegroups.com 
+redis
+
+:0
+* .*linux-perf-users@vger.kernel.org
+linux-perf-users
+
+:0
+* ^From. runzhew@clemson.edu
+sentmail/sent 
+
+:0
+* ^From. runzhew@g.clemson.edu 
+sentmail/sent 
+
+
+#最后的这个配置就是指如果上面分类剩下的信件全扔到inbox里
+:0
+* .*
+inbox
+
+# 黑名单（垃圾邮件）
+

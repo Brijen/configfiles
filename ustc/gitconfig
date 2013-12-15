@@ -1,0 +1,26 @@
+[user]
+	name = Runzhen Wang
+	email = 11274@mail.ustc.edu.cn
+[core]
+	editor = vim
+	
+[alias]
+        ck = checkout
+	b = branch
+	ba = branch -a
+	r = remote -v
+	ci = commit -a
+	di = diff
+	d = diff
+        st = status
+        rb = svn rebase
+        dc = svn dcommit
+        
+[color]
+        ui = auto
+
+[sendemail]
+	#smtpencryption = tls
+        smtpserver = "202.38.64.8"
+        smtpuser = 11274@mail.ustc.edu.cn
+	#smtpserverport = 587
