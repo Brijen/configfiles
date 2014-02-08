@@ -1,20 +1,24 @@
 [user]
 	name = Runzhen Wang
-	email = runzhew@clemson.edu
+	email = runzhew@g.clemson.edu
 [core]
 	editor = vim
 	
 [alias]
-        ck = checkout
+	ck = checkout
 	b = branch
 	ba = branch -a
+	p = push
+	l = log
 	r = remote -v
-	ci = commit -a
+	ci = commit -am
+	c = commit -am
+	p = push
 	di = diff
 	d = diff
-        st = status
-        rb = svn rebase
-        dc = svn dcommit
+	st = status
+	rb = svn rebase
+	dc = svn dcommit
         
 [color]
         ui = auto
@@ -22,5 +26,5 @@
 [sendemail]
 	smtpencryption = tls
         smtpserver = "smtp.gmail.com"
-        smtpuser = icycoder@gmail.com
+        smtpuser = runzhew@g.clemson.edu
 	smtpserverport = 587
