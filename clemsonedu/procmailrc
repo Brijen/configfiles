@@ -32,6 +32,10 @@ osv
 freeBSD
 
 :0
+* .*freebsd-virtualization@freebsd.org
+bhyve
+
+:0
 * ^From. *@clemson.edu
 Clemson
 
