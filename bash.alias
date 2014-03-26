@@ -11,3 +11,7 @@ alias power='ssh runzhen@aqua.opensuse.osuosl.org'
 
 alias ..='cd ..'
 alias ...='cd ../../'
+
+
+alias touchpadon='synclient TouchPadOff=0'
+alias touchpadoff='synclient TouchPadOff=1'

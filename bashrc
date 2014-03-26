@@ -7,8 +7,8 @@
 
 # import my alias 
 
-if [ -f ~/.bash_alias ]; then 
-.	~/.bash_alias 
+if [ -f ~/.bash.alias ]; then 
+.	~/.bash.alias 
 fi
 
 # don't put duplicate lines in the history. See bash(1) for more options
